@@ -1,18 +1,18 @@
 package com.example.demo;
 
 public class Song {
-    private log id;
+    private long id;
     private String name;
     private String artist;
     private String album;
     private int rating;
     private int year;
 
-    public log getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(log id) {
+    public void setId(long id) {
         this.id = id;
     }
 
