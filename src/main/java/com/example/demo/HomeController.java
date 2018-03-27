@@ -14,9 +14,9 @@ public class HomeController {
                 return "formtemplate";
         }
         @RequestMapping("/processform")
-        public String loadFromPage(@RequestParam("login") String loginvalue, Model model) {
+        public String loadFromPage(@RequestParam("login") String login, Model model) {
 
-                model.addAttribute( "loginvalue", loginvalue);
+                model.addAttribute( "loginval", login);
                 model.addAttribute( "shannon", "My name is shannon");
                 return "confirm";
         }
